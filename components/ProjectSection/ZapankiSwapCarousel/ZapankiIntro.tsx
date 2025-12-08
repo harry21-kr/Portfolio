@@ -1,4 +1,6 @@
 import { motion } from "motion/react";
+import Image from "next/image";
+import Link from "next/link";
 import { CarouselItem } from "../../ui/carousel";
 
 const ZapankiIntro = () => {
@@ -10,7 +12,12 @@ const ZapankiIntro = () => {
         viewport={{ once: true }}
         className="flex flex-col items-center gap-2 text-xl"
       >
-        <h2 className="font-semibold text-3xl pb-2">ZapankiSwap</h2>
+        <div className="flex items-center gap-2">
+          <h2 className="font-semibold text-3xl pb-2">ZapankiSwap</h2>
+          <Link href="https://zapanki-frontend.vercel.app/" target="blank">
+            <Image src="/svg/external_link.svg" width={20} height={20} alt="" />
+          </Link>
+        </div>
         <h3 className="font-bold text-2xl">
           블록체인 기반 WEB3 웹게임 프로젝트
         </h3>
