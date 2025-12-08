@@ -37,20 +37,20 @@ const AboutStack = () => {
       <motion.div
         initial={{ translateX: -10, opacity: 0 }}
         whileInView={{ translateX: 0, opacity: 1 }}
-        transition={{ delay: 0.5 }}
+        transition={{ delay: 1.5 }}
         viewport={{ once: true }}
         className="flex justify-center gap-4 pb-4"
       >
         <Image src="/svg/github_logo.svg" width={100} height={100} alt="" />
         <Image src="/svg/jira_logo.svg" width={100} height={100} alt="" />
         <div className="w-[100px] h-[100px] relative">
-          <Image src="/svg/figma_logo.svg" layout="fill" alt="" />
+          <Image src="/svg/figma_logo.svg" fill alt="" />
         </div>
       </motion.div>
       <motion.div
         initial={{ translateX: -10, opacity: 0 }}
         whileInView={{ translateX: 0, opacity: 1 }}
-        transition={{ delay: 1 }}
+        transition={{ delay: 2 }}
         viewport={{ once: true }}
         className="flex flex-col items-center text-xl"
       >

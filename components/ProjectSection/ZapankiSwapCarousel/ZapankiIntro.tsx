@@ -27,7 +27,7 @@ const ZapankiIntro = () => {
       <motion.div
         initial={{ translateX: -10, opacity: 0 }}
         whileInView={{ translateX: 0, opacity: 1 }}
-        transition={{ delay: 1 }}
+        transition={{ delay: 0.5 }}
         viewport={{ once: true }}
         className="flex flex-col gap-2 text-xl font-semibold"
       >
@@ -35,7 +35,6 @@ const ZapankiIntro = () => {
         <p>1. ISR 사용 사례</p>
         <p>2. Socket.io 사용 사례</p>
         <p>3. Redux Toolkit 사용 사례</p>
-        <p>4. Framer Motion 사용 사례</p>
       </motion.div>
     </CarouselItem>
   );

@@ -8,7 +8,7 @@ import {
 } from "../../ui/carousel";
 import ZapankiIntro from "./ZapankiIntro";
 import ZapankiISR from "./ZapankiISR";
-import ZapankiMotion from "./ZapankiMotion";
+import ZapankiMore from "./ZapankiMore";
 import ZapankiRTK from "./ZapankiRTK";
 import ZapankiSocket from "./ZapankiSocket";
 
@@ -18,16 +18,15 @@ const ZapankiSwapCarousel = () => {
       <Image
         src="/images/zapanki_standing.webp"
         fill
-        objectFit="contain"
         alt=""
-        className="opacity-10"
+        className="opacity-10 object-contain"
       />
       <CarouselContent>
         <ZapankiIntro />
         <ZapankiISR />
         <ZapankiSocket />
         <ZapankiRTK />
-        <ZapankiMotion />
+        <ZapankiMore />
       </CarouselContent>
       <CarouselNext />
       <CarouselPrevious />

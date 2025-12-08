@@ -10,7 +10,6 @@ const ZapankiISR = () => {
         initial={{ translateX: -10, opacity: 0 }}
         whileInView={{ translateX: 0, opacity: 1 }}
         viewport={{ once: true }}
-        transition={{ delay: 0.5 }}
         className="font-semibold text-2xl"
       >
         ISR을 통한 빠른 랜딩페이지 로딩, SEO 최적화
@@ -19,7 +18,7 @@ const ZapankiISR = () => {
         initial={{ translateX: -10, opacity: 0 }}
         whileInView={{ translateX: 0, opacity: 1 }}
         viewport={{ once: true }}
-        transition={{ delay: 1 }}
+        transition={{ delay: 0.5 }}
         className="text-lg flex flex-col items-center gap-1"
       >
         <p>랜딩 페이지에는 서버에서 가져와야하는 데이터와 함께</p>
@@ -35,7 +34,7 @@ const ZapankiISR = () => {
         initial={{ translateX: -10, opacity: 0 }}
         whileInView={{ translateX: 0, opacity: 1 }}
         viewport={{ once: true }}
-        transition={{ delay: 1.5 }}
+        transition={{ delay: 1 }}
         className="font-bold text-lg border px-2 py-1 rounded-sm hover:brightness-75 active:brightness-50"
       >
         <Link

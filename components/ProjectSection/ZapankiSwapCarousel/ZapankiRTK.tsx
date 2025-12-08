@@ -10,7 +10,6 @@ const ZapankiRTK = () => {
         initial={{ translateX: -10, opacity: 0 }}
         whileInView={{ translateX: 0, opacity: 1 }}
         viewport={{ once: true }}
-        transition={{ delay: 0.5 }}
         className="font-semibold text-2xl"
       >
         Redux Toolkit을 사용한 전역 변수 관리
@@ -19,7 +18,7 @@ const ZapankiRTK = () => {
         initial={{ translateX: -10, opacity: 0 }}
         whileInView={{ translateX: 0, opacity: 1 }}
         viewport={{ once: true }}
-        transition={{ delay: 1 }}
+        transition={{ delay: 0.5 }}
         className="text-lg flex flex-col items-center gap-1"
       >
         <p>여러 페이지에서 동일하게 사용되는 변수들을 관리하기 위해</p>
@@ -31,7 +30,7 @@ const ZapankiRTK = () => {
         initial={{ translateX: -10, opacity: 0 }}
         whileInView={{ translateX: 0, opacity: 1 }}
         viewport={{ once: true }}
-        transition={{ delay: 1.5 }}
+        transition={{ delay: 1 }}
         className="font-bold text-lg border px-2 py-1 rounded-sm hover:brightness-75 active:brightness-50"
       >
         <Link

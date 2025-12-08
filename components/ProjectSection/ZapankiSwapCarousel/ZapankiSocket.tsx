@@ -10,7 +10,6 @@ const ZapankiSocket = () => {
         initial={{ translateX: -10, opacity: 0 }}
         whileInView={{ translateX: 0, opacity: 1 }}
         viewport={{ once: true }}
-        transition={{ delay: 0.5 }}
         className="font-semibold text-2xl"
       >
         Socket.io를 통한 실시간 게임 정보 공유
@@ -19,7 +18,7 @@ const ZapankiSocket = () => {
         initial={{ translateX: -10, opacity: 0 }}
         whileInView={{ translateX: 0, opacity: 1 }}
         viewport={{ once: true }}
-        transition={{ delay: 1 }}
+        transition={{ delay: 0.5 }}
         className="text-lg flex flex-col items-center gap-1"
       >
         <p>게임의 결과는 모든 유저에게 실시간으로 공유되어야 했습니다.</p>
@@ -34,7 +33,7 @@ const ZapankiSocket = () => {
         initial={{ translateX: -10, opacity: 0 }}
         whileInView={{ translateX: 0, opacity: 1 }}
         viewport={{ once: true }}
-        transition={{ delay: 1.5 }}
+        transition={{ delay: 1 }}
         className="font-bold text-lg border px-2 py-1 rounded-sm hover:brightness-75 active:brightness-50"
       >
         <Link
