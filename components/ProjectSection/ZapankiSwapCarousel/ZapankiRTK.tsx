@@ -35,7 +35,7 @@ const ZapankiRTK = () => {
         className="font-bold text-lg border px-2 py-1 rounded-sm hover:brightness-75 active:brightness-50"
       >
         <Link
-          href="https://github.com/harry21-kr/Portfolio-Demo/blob/main/ZapankiSwap/ISR/ISR.tsx"
+          href="https://github.com/harry21-kr/Portfolio-Demo/tree/main/ZapankiSwap/RTK"
           target="blank"
           className="flex items-center gap-2"
         >
