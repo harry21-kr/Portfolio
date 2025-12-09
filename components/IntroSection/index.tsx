@@ -2,10 +2,10 @@ import { motion } from "motion/react";
 
 const IntroSection = () => {
   return (
-    <section className="h-screen flex flex-col justify-center gap-20">
+    <section className="h-screen pb-12 flex flex-col justify-center gap-10 sm:gap-20">
       <motion.div
         animate={{ opacity: [0, 1] }}
-        className="flex flex-col gap-4 text-5xl"
+        className="flex flex-col text-[clamp(2rem,8vw,3rem)]"
       >
         <p>안녕하세요.</p>
         <p className="font-semibold">프론트엔드 개발자</p>
@@ -14,7 +14,7 @@ const IntroSection = () => {
       <motion.div
         animate={{ opacity: [0, 1] }}
         transition={{ delay: 1 }}
-        className="flex flex-col items-end text-xl gap-2"
+        className="flex flex-col text-[clamp(1rem,2.5vw,1.25rem)] break-keep sm:gap-2 sm:items-end"
       >
         <p>
           <span className="font-semibold">무언가</span>가 없다면{" "}
