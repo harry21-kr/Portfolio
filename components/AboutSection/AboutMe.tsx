@@ -8,7 +8,7 @@ const AboutMe = () => {
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
         viewport={{ once: true }}
-        className="font-bold text-[clamp(1.5rem,4vw,1.875rem)] pb-2 sm:pb-4"
+        className="font-bold text-[clamp(1.25rem,4vw,1.875rem)] pb-2 sm:pb-4"
       >
         주도적인 개발을 통한 프로젝트 기여
       </motion.h2>
@@ -28,7 +28,7 @@ const AboutMe = () => {
         whileInView={{ opacity: 1 }}
         transition={{ delay: 1 }}
         viewport={{ once: true }}
-        className="font-bold text-[clamp(1.5rem,4vw,1.875rem)] pb-2 sm:pb-4"
+        className="font-bold text-[clamp(1.25rem,4vw,1.875rem)] pb-2 sm:pb-4"
       >
         다양한 경험을 통한 실무 적응 능력
       </motion.h2>
