@@ -19,7 +19,7 @@ const ZapankiISR = () => {
         whileInView={{ translateX: 0, opacity: 1 }}
         viewport={{ once: true }}
         transition={{ delay: 0.5 }}
-        className="text-[clamp(1rem,2.5vw,1.125rem)] flex flex-col sm:items-center sm:gap-1 break-keep"
+        className="text-[clamp(1rem,2.5vw,1.125rem)] flex flex-col sm:items-center sm:gap-1"
       >
         <p>랜딩 페이지에는 서버에서 가져와야하는 데이터와 함께</p>
         <p>웹사이트의 소개 등 중요한 정보들도 포함되어 있었습니다.</p>

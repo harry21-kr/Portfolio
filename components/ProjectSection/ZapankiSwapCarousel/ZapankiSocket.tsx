@@ -19,7 +19,7 @@ const ZapankiSocket = () => {
         whileInView={{ translateX: 0, opacity: 1 }}
         viewport={{ once: true }}
         transition={{ delay: 0.5 }}
-        className="text-[clamp(1rem,2.5vw,1.125rem)] flex flex-col sm:items-center sm:gap-1 break-keep"
+        className="text-[clamp(1rem,2.5vw,1.125rem)] flex flex-col sm:items-center sm:gap-1"
       >
         <p>게임의 결과는 모든 유저에게 실시간으로 공유되어야 했습니다.</p>
         <p>

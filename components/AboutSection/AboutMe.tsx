@@ -17,7 +17,7 @@ const AboutMe = () => {
         whileInView={{ translateX: 0, opacity: 1 }}
         transition={{ delay: 0.5 }}
         viewport={{ once: true }}
-        className="text-center text-[clamp(1rem,2.5vw,1.25rem)] pb-8 break-keep"
+        className="text-center text-[clamp(1rem,2.5vw,1.25rem)] pb-8"
       >
         주어진 것 이외에도 더 많은 것을 수행하고자 노력합니다. 기여한 프로젝트를
         기반으로 한 회사가 설립되는 과정에 참여하였으며 주도적인 참여가
@@ -37,7 +37,7 @@ const AboutMe = () => {
         whileInView={{ translateX: 0, opacity: 1 }}
         transition={{ delay: 1.5 }}
         viewport={{ once: true }}
-        className="text-center text-[clamp(1rem,2.5vw,1.25rem)] break-keep"
+        className="text-center text-[clamp(1rem,2.5vw,1.25rem)]"
       >
         다양한 환경에서 쌓은 경험으로 실무에 빠르게 적응합니다. 개인
         프로젝트에서는 어떻게 잘 만드는지 익혔고, 팀 프로젝트에서는 효과적인

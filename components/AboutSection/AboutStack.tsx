@@ -29,7 +29,7 @@ const AboutStack = () => {
         whileInView={{ translateX: 0, opacity: 1 }}
         transition={{ delay: 1 }}
         viewport={{ once: true }}
-        className="text-[clamp(1rem,2.5vw,1.25rem)] pb-4 sm:pb-8 break-keep text-center"
+        className="text-[clamp(1rem,2.5vw,1.25rem)] pb-4 sm:pb-8 text-center"
       >
         현 시점 웹 프론트엔드 개발에서 가장 많이 사용되는 라이브러리,
         프레임워크를 능숙하게 활용할 수 있습니다.
@@ -52,7 +52,7 @@ const AboutStack = () => {
         whileInView={{ translateX: 0, opacity: 1 }}
         transition={{ delay: 2 }}
         viewport={{ once: true }}
-        className="text-[clamp(1rem,2.5vw,1.25rem)] break-keep text-center"
+        className="text-[clamp(1rem,2.5vw,1.25rem)] text-center"
       >
         또한 실무에서 사용되는 다양한 협업 도구를 사용한 경험을 바탕으로 기획자,
         디자이너, 개발자님과 원활한 소통을 진행할 수 있습니다.

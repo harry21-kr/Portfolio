@@ -19,7 +19,7 @@ const ZapankiRTK = () => {
         whileInView={{ translateX: 0, opacity: 1 }}
         viewport={{ once: true }}
         transition={{ delay: 0.5 }}
-        className="text-[clamp(1rem,2.5vw,1.125rem)] flex flex-col sm:items-center sm:gap-1 break-keep"
+        className="text-[clamp(1rem,2.5vw,1.125rem)] flex flex-col sm:items-center sm:gap-1"
       >
         <p>여러 페이지에서 동일하게 사용되는 변수들을 관리하기 위해</p>
         <p>RTK를 사용하였고, createSelector와 useMemo를 사용해</p>

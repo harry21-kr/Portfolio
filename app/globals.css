@@ -80,6 +80,8 @@ body {
   background-color: #0a192f;
   font-family: var(--font-nanum-gothic), Helvetica, sans-serif;
 
+  word-break: keep-all;
+
   user-select: none;
   -webkit-user-select: none;
   -moz-user-select: none;

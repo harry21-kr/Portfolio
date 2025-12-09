@@ -18,7 +18,7 @@ const ZapankiIntro = () => {
             <Image src="/svg/external_link.svg" width={20} height={20} alt="" />
           </Link>
         </div>
-        <h3 className="font-bold text-[clamp(1.25rem,5vw,1.5rem)] break-keep text-center">
+        <h3 className="font-bold text-[clamp(1.25rem,5vw,1.5rem)] text-center">
           블록체인 기반 WEB3 웹게임 프로젝트
         </h3>
         <p>개발 기간: 2023.01 ~ 2024.04</p>
