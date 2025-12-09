@@ -27,9 +27,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${nanumGothic.variable} ${nanumGothicCoding.variable} antialiased flex flex-col items-center text-slate-200`}
+        className={`${nanumGothic.variable} ${nanumGothicCoding.variable} antialiased text-slate-200 flex justify-center`}
       >
-        {children}
+        <div className="max-w-2xl">{children}</div>
       </body>
     </html>
   );

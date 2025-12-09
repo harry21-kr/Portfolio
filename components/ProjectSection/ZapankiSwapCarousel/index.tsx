@@ -28,8 +28,8 @@ const ZapankiSwapCarousel = () => {
         <ZapankiRTK />
         <ZapankiMore />
       </CarouselContent>
-      <CarouselNext />
       <CarouselPrevious />
+      <CarouselNext />
     </Carousel>
   );
 };
