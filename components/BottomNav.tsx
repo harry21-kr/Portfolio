@@ -36,21 +36,18 @@ const BottomNav = ({ containerRef }: BottomNavProps) => {
       }
       whileTap={{ opacity: 0.5 }}
       whileHover={{ opacity: 0.75 }}
-      className="nav_container fixed bottom-12 left-1/2 -translate-x-1/2 border rounded-full px-12 overflow-hidden h-10 bg-background/30 backdrop-blur-[10px]"
+      className="nav_container fixed bottom-4 left-1/2 -translate-x-1/2 border rounded-full px-12 overflow-hidden h-10 bg-background/30 backdrop-blur-[10px]"
     >
       <motion.div
         animate={{
-          translateY: `${Math.floor(scrollProgress * 4) * -100}%`,
+          translateY: `${Math.floor(scrollProgress * 3) * -100}%`,
         }}
         className="h-full font-bold text-lg"
       >
         <p className="h-full flex justify-center items-center">인사말</p>
         <p className="h-full flex justify-center items-center">보유 역량</p>
         <p className="h-full flex justify-center items-center">
-          2. 경력/프로젝트
-        </p>
-        <p className="h-full flex justify-center items-center">
-          3. 참여 프로젝트
+          프로젝트 개발 사례
         </p>
         <p className="h-full flex justify-center items-center">감사합니다.</p>
       </motion.div>

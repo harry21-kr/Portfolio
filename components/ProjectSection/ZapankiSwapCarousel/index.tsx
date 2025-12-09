@@ -14,7 +14,7 @@ import ZapankiSocket from "./ZapankiSocket";
 
 const ZapankiSwapCarousel = () => {
   return (
-    <Carousel>
+    <Carousel className="w-full">
       <Image
         src="/images/zapanki_standing.webp"
         fill

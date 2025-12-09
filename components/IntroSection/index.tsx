@@ -2,7 +2,7 @@ import { motion } from "motion/react";
 
 const IntroSection = () => {
   return (
-    <section className="flex flex-col py-40 gap-20">
+    <section className="h-screen flex flex-col justify-center gap-20">
       <motion.div
         animate={{ opacity: [0, 1] }}
         className="flex flex-col gap-4 text-5xl"
