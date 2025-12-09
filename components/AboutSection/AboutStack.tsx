@@ -18,7 +18,7 @@ const AboutStack = () => {
         whileInView={{ translateX: 0, opacity: 1 }}
         transition={{ delay: 0.5 }}
         viewport={{ once: true }}
-        className="flex justify-center gap-4 pb-4"
+        className="flex justify-center gap-4 pb-4 scale-75 sm:scale-100"
       >
         <Image src="/svg/javascript_logo.svg" width={100} height={100} alt="" />
         <Image src="/svg/react_logo.svg" width={100} height={100} alt="" />
@@ -39,7 +39,7 @@ const AboutStack = () => {
         whileInView={{ translateX: 0, opacity: 1 }}
         transition={{ delay: 1.5 }}
         viewport={{ once: true }}
-        className="flex justify-center gap-4 pb-4"
+        className="flex justify-center gap-4 pb-4 scale-75 sm:scale-100"
       >
         <Image src="/svg/github_logo.svg" width={100} height={100} alt="" />
         <Image src="/svg/jira_logo.svg" width={100} height={100} alt="" />
