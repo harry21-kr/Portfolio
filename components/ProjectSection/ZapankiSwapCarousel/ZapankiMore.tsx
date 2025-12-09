@@ -31,7 +31,7 @@ const ZapankiMore = () => {
       >
         <Link
           href="https://zapanki-frontend.vercel.app/"
-          target="blank"
+          target="_blank"
           className="flex items-center gap-2"
         >
           <p>웹사이트 보러가기</p>

@@ -5,12 +5,12 @@ import { CarouselItem } from "../../ui/carousel";
 
 const ZapankiRTK = () => {
   return (
-    <CarouselItem className="justify-evenly gap-4">
+    <CarouselItem className="justify-center gap-4 px-2 sm:gap-8 sm:px-0">
       <motion.h2
         initial={{ translateX: -10, opacity: 0 }}
         whileInView={{ translateX: 0, opacity: 1 }}
         viewport={{ once: true }}
-        className="font-semibold text-2xl"
+        className="font-semibold text-[clamp(1.125rem,2.5vw,1.5rem)]"
       >
         Redux Toolkit을 사용한 전역 변수 관리
       </motion.h2>
@@ -19,7 +19,7 @@ const ZapankiRTK = () => {
         whileInView={{ translateX: 0, opacity: 1 }}
         viewport={{ once: true }}
         transition={{ delay: 0.5 }}
-        className="text-lg flex flex-col items-center gap-1"
+        className="text-[clamp(1rem,2.5vw,1.125rem)] flex flex-col sm:items-center sm:gap-1 break-keep"
       >
         <p>여러 페이지에서 동일하게 사용되는 변수들을 관리하기 위해</p>
         <p>RTK를 사용하였고, createSelector와 useMemo를 사용해</p>
@@ -35,7 +35,7 @@ const ZapankiRTK = () => {
       >
         <Link
           href="https://github.com/harry21-kr/Portfolio-Demo/tree/main/ZapankiSwap/RTK"
-          target="blank"
+          target="_blank"
           className="flex items-center gap-2"
         >
           <p>코드 보러가기</p>

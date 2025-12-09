@@ -5,12 +5,12 @@ import { CarouselItem } from "../../ui/carousel";
 
 const ZapankiSocket = () => {
   return (
-    <CarouselItem className="justify-evenly gap-4">
+    <CarouselItem className="justify-center gap-4 px-2 sm:px-0 sm:gap-8">
       <motion.h2
         initial={{ translateX: -10, opacity: 0 }}
         whileInView={{ translateX: 0, opacity: 1 }}
         viewport={{ once: true }}
-        className="font-semibold text-2xl"
+        className="font-semibold text-[clamp(1.125rem,2.5vw,1.5rem)]"
       >
         Socket.io를 통한 실시간 게임 정보 공유
       </motion.h2>
@@ -19,7 +19,7 @@ const ZapankiSocket = () => {
         whileInView={{ translateX: 0, opacity: 1 }}
         viewport={{ once: true }}
         transition={{ delay: 0.5 }}
-        className="text-lg flex flex-col items-center gap-1"
+        className="text-[clamp(1rem,2.5vw,1.125rem)] flex flex-col sm:items-center sm:gap-1 break-keep"
       >
         <p>게임의 결과는 모든 유저에게 실시간으로 공유되어야 했습니다.</p>
         <p>
@@ -38,7 +38,7 @@ const ZapankiSocket = () => {
       >
         <Link
           href="https://github.com/harry21-kr/Portfolio-Demo/tree/main/ZapankiSwap/Socket"
-          target="blank"
+          target="_blank"
           className="flex items-center gap-2"
         >
           <p>코드 보러가기</p>

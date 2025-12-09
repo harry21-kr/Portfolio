@@ -29,7 +29,7 @@ export default function RootLayout({
       <body
         className={`${nanumGothic.variable} ${nanumGothicCoding.variable} antialiased text-slate-200 flex justify-center`}
       >
-        <div className="sm:max-w-2xl max-w-full px-6">{children}</div>
+        <div className="sm:max-w-2xl max-w-full px-4">{children}</div>
       </body>
     </html>
   );

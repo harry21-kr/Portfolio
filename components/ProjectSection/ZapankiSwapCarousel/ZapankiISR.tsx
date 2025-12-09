@@ -5,12 +5,12 @@ import { CarouselItem } from "../../ui/carousel";
 
 const ZapankiISR = () => {
   return (
-    <CarouselItem className="justify-evenly">
+    <CarouselItem className="justify-center gap-4 px-2 sm:gap-8 sm:px-0">
       <motion.h2
         initial={{ translateX: -10, opacity: 0 }}
         whileInView={{ translateX: 0, opacity: 1 }}
         viewport={{ once: true }}
-        className="font-semibold text-2xl"
+        className="font-semibold text-[clamp(1.125rem,2.5vw,1.5rem)]"
       >
         ISR을 통한 빠른 랜딩페이지 로딩, SEO 최적화
       </motion.h2>
@@ -19,7 +19,7 @@ const ZapankiISR = () => {
         whileInView={{ translateX: 0, opacity: 1 }}
         viewport={{ once: true }}
         transition={{ delay: 0.5 }}
-        className="text-lg flex flex-col items-center gap-1"
+        className="text-[clamp(1rem,2.5vw,1.125rem)] flex flex-col sm:items-center sm:gap-1 break-keep"
       >
         <p>랜딩 페이지에는 서버에서 가져와야하는 데이터와 함께</p>
         <p>웹사이트의 소개 등 중요한 정보들도 포함되어 있었습니다.</p>
@@ -39,7 +39,7 @@ const ZapankiISR = () => {
       >
         <Link
           href="https://github.com/harry21-kr/Portfolio-Demo/blob/main/ZapankiSwap/ISR/ISR.tsx"
-          target="blank"
+          target="_blank"
           className="flex items-center gap-2"
         >
           <p>코드 보러가기</p>

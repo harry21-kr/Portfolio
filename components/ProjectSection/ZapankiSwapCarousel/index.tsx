@@ -1,11 +1,6 @@
 import Image from "next/image";
 
-import {
-  Carousel,
-  CarouselContent,
-  CarouselNext,
-  CarouselPrevious,
-} from "../../ui/carousel";
+import { Carousel, CarouselContent } from "../../ui/carousel";
 import ZapankiIntro from "./ZapankiIntro";
 import ZapankiISR from "./ZapankiISR";
 import ZapankiMore from "./ZapankiMore";
@@ -28,8 +23,8 @@ const ZapankiSwapCarousel = () => {
         <ZapankiRTK />
         <ZapankiMore />
       </CarouselContent>
-      <CarouselPrevious />
-      <CarouselNext />
+      {/* <CarouselPrevious />
+      <CarouselNext /> */}
     </Carousel>
   );
 };
